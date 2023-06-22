@@ -16,17 +16,7 @@ import VueDevTools from 'vite-plugin-vue-devtools'
 export default defineConfig({
   plugins: [
     liveDesigner({
-      iconPreferredCase: 'unocss', // default value (can be removed), unocss by default uses the unocss format for icon names
-      devtoolsKey: 'devtools',
-      plugins: [
-        {
-          name: 'My Awesome Lib 3.0',
-          key: 'my-awesome-lib',
-          pluginPath: fileURLToPath(
-            new URL('./my-awesome-lib/web-types.json', import.meta.url),
-          ),
-        },
-      ],
+      //...
     }),
     VueRouter({
       // routesFolder: 'src/pages', // default
