@@ -1,7 +1,7 @@
 <template>
   <WelcomeItem>
     <template #icon>
-      <BaseIcon name="i-material-symbols-lab-profile-outline" width="24px" />
+      <BaseIcon name="i-material-symbols-lab-profile-outline" height="24px" />
     </template>
     <template #heading>Documentation</template>
     Vue’s<a href="https://vuejs.org/" target="_blank" rel="noopener">
@@ -11,7 +11,7 @@
   </WelcomeItem>
   <WelcomeItem>
     <template #icon>
-      <BaseIcon name="i-ph-toolbox-bold" width="24px" />
+      <BaseIcon name="i-ph-toolbox-bold" height="24px" />
     </template>
     <template #heading>Tooling</template>
     This project is served and bundled with<a
@@ -47,7 +47,7 @@
   </WelcomeItem>
   <WelcomeItem>
     <template #icon>
-      <BaseIcon name="i-nimbus-ecosystem" width="24px" />
+      <BaseIcon name="i-nimbus-ecosystem" height="24px" />
     </template>
     <template #heading>Ecosystem</template>
     Get official tools and libraries for your project:<a
@@ -77,7 +77,7 @@
   </WelcomeItem>
   <WelcomeItem>
     <template #icon>
-      <BaseIcon name="i-fluent-people-community-16-regular" width="24px" />
+      <BaseIcon name="i-fluent-people-community-16-regular" height="24px" />
     </template>
     <template #heading>Community</template>
     Got stuck? Ask your question on<a
@@ -112,7 +112,7 @@
     <template #icon>
       <BaseIcon
         name="i-material-symbols-contact-support-outline"
-        width="24px"
+        height="24px"
       />
     </template>
     <template #heading>Support Vue</template>
