@@ -81,6 +81,7 @@ Check out the [deployment documentation](https://vitejs.dev/guide/static-deploy.
 ### Modules/Plugins
 
 - [Pinegrow Vite Plugin](https://www.npmjs.com/package/@pinegrow/vite-plugin) - enables you to live-design your Vue single-file components visually in Vue Designer.
+- [VueUse](https://vueuse.org/) - collection of essential Vue composition utilities.
 
 ### Devtools
 
