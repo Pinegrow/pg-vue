@@ -30,7 +30,7 @@
     "@pinegrow/vite-plugin": "^3.0.4",
     "@rushstack/eslint-patch": "^1.2.0",
     "@tsconfig/node18": "^2.0.0",
-    "@types/node": "^18.16.3",
+    "@types/node": "^20.5.0",
     "@unocss/preset-icons": "^0.51.12",
     "@vitejs/plugin-vue": "^4.2.3",
     "@vue/devtools": "^6.5.0",
