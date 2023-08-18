@@ -10,7 +10,7 @@ import { VueRouterAutoImports } from 'unplugin-vue-router'
 import Layouts from 'vite-plugin-vue-layouts'
 import Unocss from 'unocss/vite'
 import presetIcons from '@unocss/preset-icons'
-import VueDevTools from 'vite-plugin-vue-devtools'
+// import VueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -22,7 +22,7 @@ export default defineConfig({
       // routesFolder: 'src/pages', // default
       dts: 'typed-router.d.ts',
     }),
-    VueDevTools(),
+    // VueDevTools(),
     /* IMPORTANT: Vue must be placed after VueRouter()  */
     Vue({
       include: [/\.vue$/, /\.md$/],
