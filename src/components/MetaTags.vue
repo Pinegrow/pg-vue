@@ -1,6 +1,6 @@
 <script setup lang="ts">
   import { computed } from 'vue'
-  import site from '~/site'
+  import site from '@/site'
   import { useHead, useSeoMeta } from 'unhead'
   import { useRoute } from 'vue-router/auto'
 
