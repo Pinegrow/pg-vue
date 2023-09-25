@@ -42,12 +42,14 @@
   const { title, description, url } = site
   const route = useRoute()
 
+  const imgUrl = new URL(image, import.meta.url).href
+
   useSeoMeta({
     // title,
     // description,
     ogTitle: title,
     ogDescription: description,
-    ogImage: image,
+    ogImage: imgUrl,
     ogImageAlt: title,
     // og:image:width
     // og:image:height
@@ -84,7 +86,7 @@
       },
       {
         property: 'twitter:image',
-        content: image,
+        content: imgUrl,
       },
       {
         property: 'twitter:image:alt',
