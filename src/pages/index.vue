@@ -19,3 +19,4 @@
     <span>A Fresh Start!</span>
   </main>
 </template>
+<style scoped></style>

@@ -30,6 +30,16 @@ cd my-vue-app
 npm install #or use pnpm
 ```
 
+(or)
+
+If you prefer a blank template (a single empty home page) instead,
+
+```bash
+npx giget@latest gh:pinegrow/pg-vue#blank my-vue-app #project-name
+cd my-vue-app
+npm install #or use pnpm
+```
+
 ## 2. Open in Vue Designer
 
 Open your project in Vue Designer and follow the instructions displayed in the Config Panel (that should pop out automatically). Config Panel ⚙️ displays the key packages and the various links to their individual ecosystems and communities.
@@ -118,7 +128,7 @@ Check out the [deployment documentation](https://vitejs.dev/guide/static-deploy.
 
 ### Typescript
 
-Allows JS & strict mode is turned off. Update `tsconfig.app.json` or `tsconfig.ts` as required.
+This project allows JS, and strict mode is turned off. Update `tsconfig.ts` as required.
 
 ```json
 {
