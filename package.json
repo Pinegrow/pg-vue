@@ -12,6 +12,7 @@
     "preview": "vite preview",
     "build-only": "vite build",
     "now": "npm run build && npm run preview",
+    "lighthouse": "npx unlighthouse --site https://pg-vue-css.netlify.app",
     "type-check": "vue-tsc --noEmit",
     "vue-devtools": "vue-devtools",
     "lint": "npm run lint:fix && npm run format",
@@ -23,7 +24,8 @@
     "@vueuse/head": "^1.1.26",
     "pinia": "^2.0.35",
     "vue": "^3.3.0",
-    "vue-router": "^4.1.6"
+    "vue-router": "^4.1.6",
+    "vee-validate": "^4.11.6"
   },
   "devDependencies": {
     "@iconify/json": "^2.2.64",
