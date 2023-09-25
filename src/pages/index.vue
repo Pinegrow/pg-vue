@@ -1,6 +1,5 @@
 <script setup lang="ts">
   import { useHead } from 'unhead'
-  import TheWelcome from '@/components/TheWelcome.vue'
 
   definePage({
     name: 'home',
