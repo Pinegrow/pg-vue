@@ -39,12 +39,16 @@
   //   )
   // }
 
-  const { title, description, url } = site
+  const { title, description, url, author } = site
   const route = useRoute()
 
   const imgUrl = new URL(image, import.meta.url).href
 
   useSeoMeta({
+    // charset: 'utf-8',
+    // author,
+    // viewport: 'width=device-width, initial-scale=1',
+    // keywords: route.meta.tags?.toString(),
     // title,
     description,
     ogTitle: title,
@@ -60,46 +64,28 @@
     ogSiteName: title,
     // og: locale
     // og: type
+    twitterTitle: title,
+    twitterDescription: description,
+    twitterImage: imgUrl,
+    twitterImageAlt: title,
+    twitterSite: url,
+    twitterCard: 'summary_large_image',
   })
 
   useHead({
     // title,
-    // titleTemplate: (titleChunk) => {
-    //   return titleChunk ? `${titleChunk} - ${title}` : title
-    // },
+    titleTemplate: (titleChunk) => {
+      return titleChunk ? `${titleChunk} - ${title}` : title
+    },
     htmlAttrs: { lang: 'en-US' },
     meta: [
-      { property: 'charset', content: 'utf-8' },
+      { name: 'charset', content: 'utf-8' },
       {
-        property: 'viewport',
+        name: 'viewport',
         content: 'width=device-width, initial-scale=1',
       },
-      { property: 'author', content: 'Pinegrow' },
-      { property: 'keywords', content: route.meta.tags?.toString() },
-      {
-        property: 'twitter:title',
-        content: title,
-      },
-      {
-        property: 'twitter:description',
-        content: description,
-      },
-      {
-        property: 'twitter:image',
-        content: imgUrl,
-      },
-      {
-        property: 'twitter:image:alt',
-        content: title,
-      },
-      {
-        property: 'twitter:site',
-        content: url,
-      },
-      {
-        property: 'twitter:card',
-        content: 'summary_large_image',
-      },
+      { name: 'author', content: author },
+      { name: 'keywords', content: route.meta.tags?.toString() },
     ],
     // script: [{innerHTML: checkDarkTheme, once: true} as TurboScript],
     link,
