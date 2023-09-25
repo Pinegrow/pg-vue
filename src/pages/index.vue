@@ -16,6 +16,6 @@
 </script>
 <template>
   <main>
-    <TheWelcome />
+    <span>A Fresh Start!</span>
   </main>
 </template>
