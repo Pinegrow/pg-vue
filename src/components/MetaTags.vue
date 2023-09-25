@@ -46,7 +46,7 @@
 
   useSeoMeta({
     // title,
-    // description,
+    description,
     ogTitle: title,
     ogDescription: description,
     ogImage: imgUrl,
