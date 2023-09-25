@@ -54,8 +54,8 @@ export default defineConfig({
         VueRouterAutoImports, // Remove 'vue-router',
         // 'vue-i18n',
         // 'vue/macros',
-        // '@vueuse/head',
-        // '@vueuse/core',
+        '@vueuse/head',
+        '@vueuse/core',
         'pinia',
       ],
       dirs: [
