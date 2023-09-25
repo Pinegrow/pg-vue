@@ -15,5 +15,7 @@
   })
 </script>
 <template>
-  <main><span>A Fresh Start!</span></main>
+  <main>
+    <TheWelcome />
+  </main>
 </template>

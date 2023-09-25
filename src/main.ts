@@ -8,7 +8,7 @@
 //   window.devtools = devtools
 // }
 
-// import '@/assets/css/main.css'
+import '@/assets/css/main.css'
 import 'uno.css'
 
 import { createApp } from 'vue'
