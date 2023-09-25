@@ -16,7 +16,19 @@ import presetIcons from '@unocss/preset-icons'
 export default defineConfig({
   plugins: [
     liveDesigner({
-      //...
+      iconPreferredCase: 'unocss',
+      // default value (can be removed), unocss by default uses the unocss format for icon names
+      devtoolsKey: 'devtools',
+      // see app.ts
+      // plugins: [
+      //   {
+      //     name: 'My Awesome Lib 3.0',
+      //     key: 'my-awesome-lib',
+      //     pluginPath: fileURLToPath(
+      //       new URL('./my-awesome-lib/web-types.json', import.meta.url),
+      //     ),
+      //   },
+      // ],
     }),
     VueRouter({
       // routesFolder: 'src/pages', // default
@@ -47,18 +59,27 @@ export default defineConfig({
         'pinia',
       ],
       dirs: [
-        // 'src/composables',
-        // 'src/stores',
+        /* Please ensure that you update the filenames and paths to accurately match those used in your project. */
+
+        'src/composables',
+        // 'src/utils',
+        'src/stores',
       ],
       vueTemplate: true,
       dts: 'auto-imports.d.ts',
     }),
+    // For details, refer to https://github.com/antfu/unplugin-vue-components#configuration
     AutoImportComponents({
+      /* Please ensure that you update the filenames and paths to accurately match those used in your project. */
+
+      dirs: ['./src/components'],
+
+      // allow auto load markdown components under ./src/components/
       extensions: ['vue', 'md'],
-      // allow auto load markdown components under `./src/content/`
-      dirs: ['src/components' /* default */, 'src/content'],
+
       // allow auto import and register components used in markdown
-      include: [/\.vue$/, /\.vue\?vue/, /\.md$/],
+      include: [/.vue$/, /.vue?vue/, /.md$/],
+
       // resolvers: [], // Auto-import using resolvers
       dts: 'components.d.ts',
     }),
@@ -72,6 +93,10 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
+      /* Must be either an object, or an array of { find, replacement, customResolver } pairs. */
+      /* Refer to: https://vitejs.dev/config/shared-options.html#resolve-alias */
+      /* Please ensure that you update the filenames and paths to accurately match those used in your project. */
+
       '@': fileURLToPath(new URL('./src', import.meta.url)),
       '~': fileURLToPath(new URL('./src', import.meta.url)),
       '~~': fileURLToPath(new URL('./', import.meta.url)),
