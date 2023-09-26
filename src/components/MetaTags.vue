@@ -86,7 +86,7 @@
         content: 'width=device-width, initial-scale=1',
       },
       { name: 'author', content: author },
-      { name: 'keywords', content: route.meta.tags?.toString() },
+      // { name: 'keywords', content: route.meta.tags?.toString() },
     ],
     // script: [{innerHTML: checkDarkTheme, once: true} as TurboScript],
     link,
