@@ -69,9 +69,9 @@
     twitterDescription: description,
     twitterImage: imgUrl,
     twitterImageAlt: title,
-    twitterCard: 'summary_large_image',
     twitterSite: '@vuedesigner',
     twitterCreator: '@techakayy',
+    twitterCard: 'summary_large_image',
   })
 
   useHead({
