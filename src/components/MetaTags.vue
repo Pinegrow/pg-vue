@@ -53,8 +53,7 @@
     description,
     ogTitle: title,
     ogDescription: description,
-    ogType: 'website',
-    ogImage: imgUrl,
+    ogImage: 'https://pg-nuxt-tailwindcss.netlify.app/_nuxt/image.3d26c758.jpg',
     ogImageAlt: title,
     // og:image:width
     // og:image:height
@@ -67,7 +66,8 @@
     // og: type
     twitterTitle: title,
     twitterDescription: description,
-    twitterImage: imgUrl,
+    twitterImage:
+      'https://pg-nuxt-tailwindcss.netlify.app/_nuxt/image.3d26c758.jpg',
     twitterImageAlt: title,
     twitterSite: url,
     twitterCard: 'summary_large_image',
