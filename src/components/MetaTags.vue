@@ -53,6 +53,7 @@
     description,
     ogTitle: title,
     ogDescription: description,
+    ogType: 'website',
     ogImage: imgUrl,
     ogImageAlt: title,
     // og:image:width
