@@ -53,7 +53,8 @@
     description,
     ogTitle: title,
     ogDescription: description,
-    ogImage: 'https://pg-nuxt-tailwindcss.netlify.app/_nuxt/image.3d26c758.jpg',
+    ogType: 'website',
+    ogImage: imgUrl,
     ogImageAlt: title,
     // og:image:width
     // og:image:height
@@ -66,11 +67,11 @@
     // og: type
     twitterTitle: title,
     twitterDescription: description,
-    twitterImage:
-      'https://pg-nuxt-tailwindcss.netlify.app/_nuxt/image.3d26c758.jpg',
+    twitterImage: imgUrl,
     twitterImageAlt: title,
-    twitterSite: url,
     twitterCard: 'summary_large_image',
+    twitterSite: '@vuedesigner',
+    twitterCreator: '@techakayy',
   })
 
   useHead({
@@ -86,7 +87,7 @@
         content: 'width=device-width, initial-scale=1',
       },
       { name: 'author', content: author },
-      // { name: 'keywords', content: route.meta.tags?.toString() },
+      { name: 'keywords', content: route.meta.tags?.toString() },
     ],
     // script: [{innerHTML: checkDarkTheme, once: true} as TurboScript],
     link,
