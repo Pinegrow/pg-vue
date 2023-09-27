@@ -23,13 +23,13 @@
     "@vueuse/core": "^10.1.2",
     "@vueuse/head": "^1.1.26",
     "pinia": "^2.0.35",
+    "vee-validate": "^4.11.6",
     "vue": "^3.3.0",
-    "vue-router": "^4.1.6",
-    "vee-validate": "^4.11.6"
+    "vue-router": "^4.1.6"
   },
   "devDependencies": {
     "@iconify/json": "^2.2.64",
-    "@pinegrow/vite-plugin": "^3.0.19",
+    "@pinegrow/vite-plugin": "^3.0.21",
     "@rushstack/eslint-patch": "^1.2.0",
     "@tsconfig/node18": "^2.0.0",
     "@types/node": "^20.5.0",
