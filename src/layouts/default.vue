@@ -1,6 +1,6 @@
 <template>
   <header>
-    <MetaTags />
+    <HeadAndMeta />
     <img
       alt="Vue logo"
       class="logo"
@@ -16,7 +16,9 @@
       </nav>
     </div>
   </header>
-  <router-view />
+  <main>
+    <router-view />
+  </main>
 </template>
 <style scoped>
   header {

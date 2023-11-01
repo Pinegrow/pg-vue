@@ -15,8 +15,8 @@
   })
 </script>
 <template>
-  <main>
+  <div>
     <TheWelcome />
-  </main>
+  </div>
 </template>
 <style scoped></style>
