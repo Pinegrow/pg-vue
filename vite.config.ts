@@ -15,21 +15,6 @@ import presetIcons from '@unocss/preset-icons'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
-    liveDesigner({
-      iconPreferredCase: 'unocss',
-      // default value (can be removed), unocss by default uses the unocss format for icon names
-      devtoolsKey: 'devtools',
-      // see app.ts
-      // plugins: [
-      //   {
-      //     name: 'My Awesome Lib 3.0',
-      //     key: 'my-awesome-lib',
-      //     pluginPath: fileURLToPath(
-      //       new URL('./my-awesome-lib/web-types.json', import.meta.url),
-      //     ),
-      //   },
-      // ],
-    }),
     VueRouter({
       // routesFolder: 'src/pages', // default
       dts: 'typed-router.d.ts',
@@ -89,6 +74,21 @@ export default defineConfig({
           prefix: 'i-', // default prefix, do not change
         }),
       ],
+    }),
+    liveDesigner({
+      iconPreferredCase: 'unocss',
+      // default value (can be removed), unocss by default uses the unocss format for icon names
+      devtoolsKey: 'devtools',
+      // see app.ts
+      // plugins: [
+      //   {
+      //     name: 'My Awesome Lib 3.0',
+      //     key: 'my-awesome-lib',
+      //     pluginPath: fileURLToPath(
+      //       new URL('./my-awesome-lib/web-types.json', import.meta.url),
+      //     ),
+      //   },
+      // ],
     }),
   ],
   resolve: {

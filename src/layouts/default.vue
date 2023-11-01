@@ -1,7 +1,9 @@
 <template>
   <header>
-    <MetaTags />
+    <HeadAndMeta />
   </header>
-  <router-view />
+  <main>
+    <router-view />
+  </main>
 </template>
 <style scoped></style>
