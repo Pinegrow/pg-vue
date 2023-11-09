@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@iconify/json": "^2.2.64",
-    "@pinegrow/vite-plugin": "^3.0.21",
+    "@pinegrow/vite-plugin": "^3.0.29",
     "@rushstack/eslint-patch": "^1.2.0",
     "@tsconfig/node18": "^2.0.0",
     "@types/node": "^20.5.0",
