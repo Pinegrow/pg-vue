@@ -2,7 +2,7 @@
 
 This is a starter template that pre-includes the [Pinegrow Vite Plugin](https://www.npmjs.com/package/@pinegrow/vite-plugin) and other goodies for Vue Designer.
 
-Demo - https://pg-vue-css.netlify.app/
+Demo - https://pg-vite.netlify.app/
 
 ## Vue Designer
 
@@ -18,14 +18,14 @@ Clean code 😃, No lock-in - You are in control of your projects and developmen
 
 ### 1. Clone to local
 
-[Create a repo from this template on GitHub](https://github.com/pinegrow/pg-vue/generate).
+[Create a repo from this template on GitHub](https://github.com/pinegrow/pg-vite/generate).
 
 (or)
 
 If you prefer to do it manually with the cleaner git history
 
 ```bash
-npx giget@latest gh:pinegrow/pg-vue my-vue-app #project-name
+npx giget@latest gh:pinegrow/pg-vite my-vue-app #project-name
 cd my-vue-app
 npm install #or use pnpm
 ```
@@ -35,7 +35,7 @@ npm install #or use pnpm
 If you prefer a blank template (a single empty home page) instead,
 
 ```bash
-npx giget@latest gh:pinegrow/pg-vue#blank my-vue-app #project-name
+npx giget@latest gh:pinegrow/pg-vite#blank my-vue-app #project-name
 cd my-vue-app
 npm install #or use pnpm
 ```
@@ -79,7 +79,7 @@ npm run unlighthouse # Uses npx unlighthouse from https://unlighthouse.dev/ to r
 ### Deploy to Netlify
 
 You can deploy this repo as a site on your own to explore and experiment with, by clicking this button.
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Pinegrow/pg-vue)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Pinegrow/pg-vite)
 
 Check out the [deployment documentation](https://vitejs.dev/guide/static-deploy.html#netlify) for more information.
 
