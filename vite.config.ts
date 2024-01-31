@@ -83,7 +83,7 @@ export default defineConfig({
     liveDesigner({
       iconPreferredCase: 'unocss',
       // default value (can be removed), unocss by default uses the unocss format for icon names
-      devtoolsKey: 'devtools',
+      devtoolsKey: 'devtoolsKey',
       // see app.ts
       // plugins: [
       //   {
