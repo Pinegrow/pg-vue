@@ -9,7 +9,7 @@
     <h3>
       This is a simple template
       <a
-        href="https://github.com/pinegrow/pg-vite"
+        href="https://github.com/pinegrow/pg-vue"
         target="_blank"
         rel="noopener"
         ><BaseIcon
