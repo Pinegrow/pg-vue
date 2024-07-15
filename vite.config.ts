@@ -10,7 +10,7 @@ import { VueRouterAutoImports } from 'unplugin-vue-router'
 import Layouts from 'vite-plugin-vue-layouts'
 import Unocss from 'unocss/vite'
 import presetIcons from '@unocss/preset-icons'
-// import VueDevTools from 'vite-plugin-vue-devtools'
+import VueDevTools from 'vite-plugin-vue-devtools'
 
 // import { visualizer } from 'rollup-plugin-visualizer'
 
@@ -21,7 +21,7 @@ export default defineConfig({
       // routesFolder: 'src/pages', // default
       dts: 'typed-router.d.ts',
     }),
-    // VueDevTools(),
+    VueDevTools(),
     /* IMPORTANT: Vue must be placed after VueRouter()  */
     Vue({
       include: [/\.vue$/, /\.md$/],
@@ -92,7 +92,7 @@ export default defineConfig({
       //     name: 'My Awesome Lib 3.0',
       //     key: 'my-awesome-lib',
       //     pluginPath: fileURLToPath(
-      //       new URL('./my-awesome-lib/web-types.json', import.meta.url),
+      //       new URL('./web-types/my-awesome-lib.json', import.meta.url),
       //     ),
       //   },
       // ],
