@@ -32,10 +32,10 @@ npm install #or use pnpm
 
 (or)
 
-If you prefer a blank template (a single empty home page) instead,
+If you prefer a minimal template (a single empty home page) instead,
 
 ```bash
-npx giget@latest gh:pinegrow/pg-vue#blank my-vue-app #project-name
+npx giget@latest gh:pinegrow/pg-vue#minimal my-vue-app #project-name
 cd my-vue-app
 npm install #or use pnpm
 ```
