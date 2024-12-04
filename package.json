@@ -2,6 +2,7 @@
   "name": "pg-vue",
   "version": "0.0.0",
   "homepage": "https://pg-vue-css.netlify.app",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/pinegrow/pg-vue.git"
@@ -30,7 +31,7 @@
   },
   "devDependencies": {
     "@iconify/json": "^2.2.64",
-    "@pinegrow/vite-plugin": "^3.0.60",
+    "@pinegrow/vite-plugin": "^3.0.65",
     "@rushstack/eslint-patch": "^1.2.0",
     "@tsconfig/node18": "^2.0.0",
     "@types/node": "^20.5.0",
