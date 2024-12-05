@@ -262,7 +262,7 @@
     }
   },
   "template_framework_id": "vue",
-  "open-pages": [],
+  "open-pages": ["src/pages/index.vue"],
   "breakpoints": ["1024px"],
   "frameworks": [
     "pg.insight.events",
